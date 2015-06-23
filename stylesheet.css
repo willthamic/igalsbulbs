@@ -1,5 +1,11 @@
 body {
+	background-image:url(flashlight.png);
+	background-position:10px 200px;
 	background-color:#CC00CC;
+	animation-duration: 1500ms;
+	animation-name: danker;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear
 }
 
 img {
@@ -7,6 +13,10 @@ img {
 	animation-duration:800ms;
 	animation-name: dank;
 	animation-iteration-count: infinite;
+}
+
+h1 {
+	color:white;
 }
 
 @keyframes dank {
@@ -17,3 +27,11 @@ img {
 		transform: rotate(7deg);
 	}
 }
+
+@keyframes danker {
+	from {
+		background-position: 0px 0px;
+	}
+	to {
+		background-position: 219px 584px;
+	}
