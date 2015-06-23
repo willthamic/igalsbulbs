@@ -1,0 +1,19 @@
+body {
+	background-color:#CC00CC;
+}
+
+img {
+	border:30px dashed yellow;
+	animation-duration:800ms;
+	animation-name: dank;
+	animation-iteration-count: infinite;
+}
+
+@keyframes dank {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(7deg);
+	}
+}
