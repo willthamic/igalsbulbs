@@ -8,15 +8,32 @@ body {
 	animation-timing-function: linear
 }
 
-img {
+.igal {
 	border:30px dashed yellow;
 	animation-duration:800ms;
 	animation-name: dank;
 	animation-iteration-count: infinite;
 }
 
+#buy {
+	width:100px;
+	animation-duration:500ms;
+	animation-name: dankest;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
 h1 {
 	color:white;
+}
+
+@keyframes dankest {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
 }
 
 @keyframes dank {
