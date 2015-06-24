@@ -10,8 +10,8 @@ body {
 }
 
 .igal {
-	border:30px dashed yellow;
-	animation-duration:800ms;
+	border:25px dashed yellow;
+	animation-duration:200ms;
 	animation-name: dank;
 	animation-iteration-count: infinite;
 }
@@ -51,7 +51,7 @@ h1 {
 		transform: rotate(0deg);
 	}
 	to {
-		transform: rotate(7deg);
+		transform: rotate(3deg);
 	}
 }
 
