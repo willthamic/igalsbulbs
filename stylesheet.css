@@ -40,25 +40,9 @@ h1 {
 @keyframes dankest {
 	from {
 		transform: rotate(0deg);
-		margin-top: 0;
-		margin-left: 0;
-	}
-	25% {
-		margin-top:0;
-		margin-left:50px;
-	}
-	50% {
-		margin-top:50px;
-		margin-left:50px;
-	}
-	75% {
-		margin-top:50px;
-		margin-left:0;
 	}
 	to {
 		transform: rotate(360deg);
-		margin-top:0;
-		margin-left:0;
 	}
 }
 
