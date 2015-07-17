@@ -9,6 +9,16 @@ body {
 	height:100%;
 }
 
+@font-face { font-family: Will; src: url('willfont.ttf'); }
+
+* {font-family: Will; font-size: 18px;}
+
+blockquote {
+	border-left: 10px solid blue;
+	padding-left:50px;
+	margin-left:0;
+}
+
 .igal {
 	border:25px dashed yellow;
 	animation-duration:200ms;
@@ -78,48 +88,29 @@ html {
 	border:3px solid red;
 }
 
-.container { 
-  width: 200px;
-  height: 260px;
-  position: relative;
-  perspective: 800px;
-}
 
-#card {
-  width: 100%;
-  height: 100%;
-  position: absolute;
+.images {
+  width: 32.5%;
+  padding:0;
+  margin:0;
+  backface-visibility: hidden;
   transform-style: preserve-3d;
   animation-name:dankester;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-	animation-duration: 0.5s;
+  animation-duration: 5s;
+  perspective: 800px;
+  border-radius: 100%;
 }
 
-#card figure {
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-}
 
-#card .front {
-  background: yellow;
-}
-#card .back {
-  background: blue;
-  
-}
 
 @keyframes dankester {
 	from {
-		transform: rotateY( -40deg );
-	}
-	50% {
-		transform: rotateY( 40deg );
+		transform: rotateZ( 360deg );
+		
 	}
 	to {
-		transform: rotateY( -40deg );
+		transform: rotateZ( 0deg );
 	}
 }
