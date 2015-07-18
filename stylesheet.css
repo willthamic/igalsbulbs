@@ -2,10 +2,14 @@ body {
 	background-image:url(flashlight.png);
 	background-position:10px 200px;
 	background-color:#CC00CC;
-	animation-duration: 1500ms;
-	animation-name: danker;
-	animation-iteration-count: infinite;
-	animation-timing-function: linear;
+	-webkit-animation-duration: 1500ms;
+	        animation-duration: 1500ms;
+	-webkit-animation-name: danker;
+	        animation-name: danker;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	        animation-timing-function: linear;
 	height:100%;
 }
 
@@ -21,17 +25,24 @@ blockquote {
 
 .igal {
 	border:25px dashed yellow;
-	animation-duration:200ms;
-	animation-name: dank;
-	animation-iteration-count: infinite;
+	-webkit-animation-duration:200ms;
+	        animation-duration:200ms;
+	-webkit-animation-name: dank;
+	        animation-name: dank;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
 }
 
 #buy {
 	width:100px;
-	animation-duration:2000ms;
-	animation-name: dankest;
-	animation-iteration-count: infinite;
-	animation-timing-function: linear;
+	-webkit-animation-duration:2000ms;
+	        animation-duration:2000ms;
+	-webkit-animation-name: dankest;
+	        animation-name: dankest;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	        animation-timing-function: linear;
 }
 
 #content {
@@ -46,23 +57,69 @@ blockquote {
 
 h1 {
 	color:white;
+	font-size:30px;
+}
+
+@-webkit-keyframes dankest {
+	from {
+		-webkit-transform: rotate(0deg);
+		        transform: rotate(0deg);
+	}
+	to {
+		-webkit-transform: rotate(360deg);
+		        transform: rotate(360deg);
+	}
 }
 
 @keyframes dankest {
 	from {
-		transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+		        transform: rotate(0deg);
 	}
 	to {
-		transform: rotate(360deg);
+		-webkit-transform: rotate(360deg);
+		        transform: rotate(360deg);
+	}
+}
+
+@-webkit-keyframes dank {
+	from {
+		-webkit-transform: rotate(0deg);
+		        transform: rotate(0deg);
+	}
+	to {
+		-webkit-transform: rotate(3deg);
+		        transform: rotate(3deg);
 	}
 }
 
 @keyframes dank {
 	from {
-		transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+		        transform: rotate(0deg);
 	}
 	to {
-		transform: rotate(3deg);
+		-webkit-transform: rotate(3deg);
+		        transform: rotate(3deg);
+	}
+}
+
+@-webkit-keyframes danker {
+	from {
+		background-position: 0px 0px;
+	}
+	10% {background-position: 0px 0px;}
+	20% {background-position: 50px 0px;}
+	30% {background-position: 25px 0px;}
+	40% {background-position: 0px 0px;}
+	45% {background-position: 100px 100px;}
+	50% {background-position: 0px 100px;}
+	60% {background-position: 0px 200px;}
+	70% {background-position: 0px 300px;}
+	80% {background-position: 100px 400px;}
+	90% {background-position: 200px 500px;}
+	to {
+		background-position: 219px 584px;
 	}
 }
 
@@ -103,24 +160,94 @@ html {
   width: 32.5%;
   padding:0;
   margin:0;
-  backface-visibility: hidden;
-  transform-style: preserve-3d;
-  animation-name:dankester;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  animation-duration: 5s;
-  perspective: 800px;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-animation-name:dankester;
+          animation-name:dankester;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-perspective: 800px;
+          perspective: 800px;
   border-radius: 100%;
+}
+
+
+
+@-webkit-keyframes dankester {
+	from {
+		-webkit-transform: rotateZ( 360deg );
+		        transform: rotateZ( 360deg );
+		
+	}
+	to {
+		-webkit-transform: rotateZ( 0deg );
+		        transform: rotateZ( 0deg );
+	}
 }
 
 
 
 @keyframes dankester {
 	from {
-		transform: rotateZ( 360deg );
+		-webkit-transform: rotateZ( 360deg );
+		        transform: rotateZ( 360deg );
 		
 	}
 	to {
-		transform: rotateZ( 0deg );
+		-webkit-transform: rotateZ( 0deg );
+		        transform: rotateZ( 0deg );
+	}
+}
+
+.imagedavid {
+  width: 32.5%;
+  padding:0;
+  margin:0;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-animation-name:dankestest;
+          animation-name:dankestest;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-perspective: 800px;
+          perspective: 800px;
+  border-radius: 100%;
+}
+
+.flip-horizontal {
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+        transform: scaleX(-1);
+    -ms-filter: fliph; /*IE*/
+    -webkit-filter: fliph;
+            filter: fliph; /*IE*/
+	
+}
+
+
+@-webkit-keyframes dankestest {
+	from {
+		-moz-transform: rotateX(360deg) rotateY(360deg) rotateY(360deg);
+	}
+	to {
+		-moz-transform: rotateX( 0deg ) rotateY( 0deg ) rotateY( 0deg );
+	}
+}
+
+
+@keyframes dankestest {
+	from {
+		-moz-transform: rotateX(360deg) rotateY(360deg) rotateY(360deg);
+	}
+	to {
+		-moz-transform: rotateX( 0deg ) rotateY( 0deg ) rotateY( 0deg );
 	}
 }
