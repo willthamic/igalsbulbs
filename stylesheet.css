@@ -215,8 +215,8 @@ html {
           animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
-  -webkit-animation-duration: 10s;
-          animation-duration: 10s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
   -webkit-perspective: 800px;
           perspective: 800px;
   border-radius: 100%;
@@ -235,19 +235,19 @@ html {
 
 @-webkit-keyframes dankestest {
 	from {
-		-moz-transform: rotateX(360deg) rotateY(360deg) rotateY(360deg);
+		-moz-transform: rotateX(360deg) rotateY(360deg) rotateZ(0deg);
 	}
 	to {
-		-moz-transform: rotateX( 0deg ) rotateY( 0deg ) rotateY( 0deg );
+		-moz-transform: rotateX(0deg ) rotateY( 0deg ) rotateZ( 2700deg );
 	}
 }
 
 
 @keyframes dankestest {
 	from {
-		-moz-transform: rotateX(360deg) rotateY(360deg) rotateY(360deg);
+		-moz-transform: rotateX(360deg) rotateY(360deg) rotateZ(0deg);
 	}
 	to {
-		-moz-transform: rotateX( 0deg ) rotateY( 0deg ) rotateY( 0deg );
+		-moz-transform: rotateX(0deg ) rotateY( 0deg ) rotateZ( 2700deg );
 	}
 }
