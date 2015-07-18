@@ -232,16 +232,46 @@ html {
 	
 }
 
-@keyframes dankestest {
+@-webkit-keyframes dankestest {
 	from {
-		transform: rotateX(360deg) rotateY(360deg) rotateZ(0deg);
-  		filter: invert(0);
+		-webkit-transform: rotateX(360deg) rotateY(360deg) rotateZ(0deg);
+		        transform: rotateX(360deg) rotateY(360deg) rotateZ(0deg);
+  		filter:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /></feComponentTransfer></filter></svg>#filter');
+  		-webkit-filter: invert(0);
+  		        filter: invert(0);
 	}
 	50%{
-		filter: invert(1);
+		filter:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="1 0" /><feFuncG type="table" tableValues="1 0" /><feFuncB type="table" tableValues="1 0" /></feComponentTransfer></filter></svg>#filter');
+		-webkit-filter: invert(1);
+		        filter: invert(1);
 	}
 	to {
-		transform: rotateX(0deg ) rotateY( 0deg ) rotateZ( 2700deg );
-		filter: invert(0);
+		-webkit-transform: rotateX(0deg ) rotateY( 0deg ) rotateZ( 2700deg );
+		        transform: rotateX(0deg ) rotateY( 0deg ) rotateZ( 2700deg );
+		filter:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /></feComponentTransfer></filter></svg>#filter');
+		-webkit-filter: invert(0);
+		        filter: invert(0);
+	}
+}
+
+@keyframes dankestest {
+	from {
+		-webkit-transform: rotateX(360deg) rotateY(360deg) rotateZ(0deg);
+		        transform: rotateX(360deg) rotateY(360deg) rotateZ(0deg);
+  		filter:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /></feComponentTransfer></filter></svg>#filter');
+  		-webkit-filter: invert(0);
+  		        filter: invert(0);
+	}
+	50%{
+		filter:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="1 0" /><feFuncG type="table" tableValues="1 0" /><feFuncB type="table" tableValues="1 0" /></feComponentTransfer></filter></svg>#filter');
+		-webkit-filter: invert(1);
+		        filter: invert(1);
+	}
+	to {
+		-webkit-transform: rotateX(0deg ) rotateY( 0deg ) rotateZ( 2700deg );
+		        transform: rotateX(0deg ) rotateY( 0deg ) rotateZ( 2700deg );
+		filter:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /></feComponentTransfer></filter></svg>#filter');
+		-webkit-filter: invert(0);
+		        filter: invert(0);
 	}
 }
