@@ -13,7 +13,7 @@ body {
 	height:100%;
 }
 
-@font-face { font-family: Will; src: url('willfont.ttf'); }
+@font-face { font-family: Will; src: url('willfont.otf'); }
 
 * {font-family: Will; font-size: 18px;}
 
