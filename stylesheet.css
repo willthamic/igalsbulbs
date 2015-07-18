@@ -235,19 +235,19 @@ html {
 
 @-webkit-keyframes dankestest {
 	from {
-		-moz-transform: rotateX(360deg) rotateY(360deg) rotateZ(0deg);
+		transform: rotateX(360deg) rotateY(360deg) rotateZ(0deg);
 	}
 	to {
-		-moz-transform: rotateX(0deg ) rotateY( 0deg ) rotateZ( 2700deg );
+		transform: rotateX(0deg ) rotateY( 0deg ) rotateZ( 2700deg );
 	}
 }
 
 
 @keyframes dankestest {
 	from {
-		-moz-transform: rotateX(360deg) rotateY(360deg) rotateZ(0deg);
+		transform: rotateX(360deg) rotateY(360deg) rotateZ(0deg);
 	}
 	to {
-		-moz-transform: rotateX(0deg ) rotateY( 0deg ) rotateZ( 2700deg );
+		transform: rotateX(0deg ) rotateY( 0deg ) rotateZ( 2700deg );
 	}
 }
