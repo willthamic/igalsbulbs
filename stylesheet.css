@@ -275,3 +275,56 @@ html {
 		        filter: invert(0);
 	}
 }
+
+.spin {
+	-webkit-animation-name:spin;
+	        animation-name:spin;
+	-webkit-animation-duration: 2s;
+	        animation-duration: 2s;
+	-webkit-animation-timing-function: linear;
+	        animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+	font-size: 100px;
+	position: relative;
+	margin:0px;
+	margin-top:-40px;
+}
+
+@-webkit-keyframes spin {
+	0% {
+		-webkit-transform: rotateY(0deg);
+		        transform: rotateY(0deg);
+		color:white;
+	}
+	10% {
+		color:black;
+	}
+	90% {
+		color:black;
+	}
+	100%{
+		-webkit-transform: rotateY(360deg);
+		        transform: rotateY(360deg);
+		color:white;
+	}
+}
+
+@keyframes spin {
+	0% {
+		-webkit-transform: rotateY(0deg);
+		        transform: rotateY(0deg);
+		color:white;
+	}
+	10% {
+		color:black;
+	}
+	90% {
+		color:black;
+	}
+	100%{
+		-webkit-transform: rotateY(360deg);
+		        transform: rotateY(360deg);
+		color:white;
+	}
+}
