@@ -329,22 +329,18 @@ html {
 	}
 }
 
-p:hover {
+.hover:hover {
 	font-family:cursive;
 	font-size: 15px;
 }
-p {
+.hover {
 	font-size: 20px;
-}
-blockquote:hover {
-	font-family: cursive;
-	font-size:15px;
 }
 blockquote {
 	font-size: 20px;
 }
 
 html {
-	-webkit-transform: rotateZ(-0.5deg);
-	        transform: rotateZ(-0.5deg);
+	-webkit-transform: rotateZ(-0.25deg);
+	        transform: rotateZ(-0.25deg);
 }
