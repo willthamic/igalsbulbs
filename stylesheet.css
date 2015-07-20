@@ -339,8 +339,3 @@ html {
 blockquote {
 	font-size: 20px;
 }
-
-html {
-	-webkit-transform: rotateZ(-0.25deg);
-	        transform: rotateZ(-0.25deg);
-}
