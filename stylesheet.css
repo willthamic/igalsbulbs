@@ -328,3 +328,22 @@ html {
 		color:white;
 	}
 }
+
+p:hover {
+	font-family:cursive;
+	font-size: 15px;
+}
+p {
+	font-size: 20px;
+}
+blockquote:hover {
+	font-family: cursive;
+	font-size:15px;
+}
+blockquote {
+	font-size: 20px;
+}
+
+html {
+	transform: rotateZ(-0.5deg);
+}
