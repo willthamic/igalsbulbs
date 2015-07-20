@@ -345,5 +345,6 @@ blockquote {
 }
 
 html {
-	transform: rotateZ(-0.5deg);
+	-webkit-transform: rotateZ(-0.5deg);
+	        transform: rotateZ(-0.5deg);
 }
