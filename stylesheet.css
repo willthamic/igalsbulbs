@@ -153,6 +153,34 @@ html {
 
 #ad1 {
 	border:3px solid red;
+	-webkit-animation-name:asdf;
+	        animation-name:asdf;
+	-webkit-animation-duration: 1s;
+	        animation-duration: 1s;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	        animation-timing-function: linear;
+}
+
+@-webkit-keyframes asdf {
+	from {filter:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="100" intercept="-49.5" /><feFuncG type="linear" slope="100" intercept="-49.5" /><feFuncB type="linear" slope="100" intercept="-49.5" /></feComponentTransfer></filter></svg>#filter');-webkit-filter: contrast(10000%);filter: contrast(10000%); border-radius: 50% 25% 0 25%; box-shadow:  50px  50px 50px rgba(0,0,0,0.5);}
+	10%  {filter:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="1" intercept="0" /><feFuncG type="linear" slope="1" intercept="0" /><feFuncB type="linear" slope="1" intercept="0" /></feComponentTransfer></filter></svg>#filter');-webkit-filter: contrast(100%);filter: contrast(100%);}
+	25%  {                          border-radius: 25% 50% 25% 0; box-shadow: -50px  50px 50px rgba(0,0,0,0.5);}
+	50%  {                          border-radius: 0 25% 50% 25%; box-shadow: -50px -50px 50px rgba(0,0,0,0.5);}
+	75%  {                          border-radius: 25% 0 25% 50%; box-shadow:  50px -50px 50px rgba(0,0,0,0.5);}
+	90%  {filter:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="1" intercept="0" /><feFuncG type="linear" slope="1" intercept="0" /><feFuncB type="linear" slope="1" intercept="0" /></feComponentTransfer></filter></svg>#filter');-webkit-filter: contrast(100%);filter: contrast(100%);}
+	to   {filter:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="100" intercept="-49.5" /><feFuncG type="linear" slope="100" intercept="-49.5" /><feFuncB type="linear" slope="100" intercept="-49.5" /></feComponentTransfer></filter></svg>#filter');-webkit-filter: contrast(10000%);filter: contrast(10000%); border-radius: 50% 25% 0 25%; box-shadow:  50px  50px 50px rgba(0,0,0,0.5);}
+}
+
+@keyframes asdf {
+	from {filter:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="100" intercept="-49.5" /><feFuncG type="linear" slope="100" intercept="-49.5" /><feFuncB type="linear" slope="100" intercept="-49.5" /></feComponentTransfer></filter></svg>#filter');-webkit-filter: contrast(10000%);filter: contrast(10000%); border-radius: 50% 25% 0 25%; box-shadow:  50px  50px 50px rgba(0,0,0,0.5);}
+	10%  {filter:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="1" intercept="0" /><feFuncG type="linear" slope="1" intercept="0" /><feFuncB type="linear" slope="1" intercept="0" /></feComponentTransfer></filter></svg>#filter');-webkit-filter: contrast(100%);filter: contrast(100%);}
+	25%  {                          border-radius: 25% 50% 25% 0; box-shadow: -50px  50px 50px rgba(0,0,0,0.5);}
+	50%  {                          border-radius: 0 25% 50% 25%; box-shadow: -50px -50px 50px rgba(0,0,0,0.5);}
+	75%  {                          border-radius: 25% 0 25% 50%; box-shadow:  50px -50px 50px rgba(0,0,0,0.5);}
+	90%  {filter:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="1" intercept="0" /><feFuncG type="linear" slope="1" intercept="0" /><feFuncB type="linear" slope="1" intercept="0" /></feComponentTransfer></filter></svg>#filter');-webkit-filter: contrast(100%);filter: contrast(100%);}
+	to   {filter:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="100" intercept="-49.5" /><feFuncG type="linear" slope="100" intercept="-49.5" /><feFuncB type="linear" slope="100" intercept="-49.5" /></feComponentTransfer></filter></svg>#filter');-webkit-filter: contrast(10000%);filter: contrast(10000%); border-radius: 50% 25% 0 25%; box-shadow:  50px  50px 50px rgba(0,0,0,0.5);}
 }
 
 
