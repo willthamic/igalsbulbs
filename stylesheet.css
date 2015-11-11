@@ -23,6 +23,60 @@ blockquote {
 	margin-left:0;
 }
 
+#container {
+	width:300px;
+	margin:auto;
+	padding-top:-200px;
+	padding-bottom:200px;
+	transform-style: preserve-3d;
+	animation-name:spinny;
+	animation-duration:10s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
+@keyframes spinny {
+	from {transform: rotateY(0deg) rotateX(0deg);}
+	from {transform: rotateY(720deg) rotateX(1080deg);}
+}
+
+.face {
+	width:300px;
+	height:300px;
+	position:absolute;
+}
+
+.face-1{
+	background-color:red;
+	transform: translateY(-150px)rotateY(0deg)translateZ(150px);
+}
+
+.face-2{
+	background-color:blue;
+	transform: translateY(-150px)rotateY(90deg)translateZ(150px);
+}
+
+.face-3{
+	background-color:yellow;
+	transform: translateY(-150px)rotateY(180deg)translateZ(150px);
+}
+
+.face-4{
+	background-color:green;
+	transform: translateY(-150px)rotateY(270deg)translateZ(150px);
+}
+
+.face-5{
+	background-color:purple;
+	transform: translateY(-150px)rotateX(90deg)translateZ(150px);
+}
+
+.face-6{
+	background-color:pink;
+	transform: translateY(-150px)rotateX(270deg)translateZ(150px);
+}
+
+
 .igal {
 	border:25px dashed yellow;
 	-webkit-animation-duration:200ms;
